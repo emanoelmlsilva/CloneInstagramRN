@@ -6,7 +6,8 @@ const initialState = {
 }
 
 const reducer = (state = initialState, action) => {
-    switch(state){
+    
+    switch(action.type){
         case USER_LOGGED_IN:
             return {
                 ...state, 
